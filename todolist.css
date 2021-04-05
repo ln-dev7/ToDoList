@@ -1,0 +1,60 @@
+body{
+    background-color: black;
+}
+
+.contnair{
+    background-color: rgb(10, 240, 152);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 500px;
+    height: 500px;
+    overflow: scroll;
+}
+
+#new-tache{
+    padding-top: 15px;
+    text-align: center;
+}
+
+#todo-list{
+    display: flex;
+    flex-direction: column;
+}
+
+#todo-list li{
+    position: relative;
+    list-style-type: none;
+    font-family: 'Arial';
+    font-size: 1.2em;
+    height: 30px;
+    margin: 10px;
+}
+
+#todo-list li div:nth-child(1){
+    position: absolute;
+    left: 0;
+    width: 300px;
+    background-color: rgb(14, 71, 94);
+    height: 30px;
+    color: white;
+}
+#todo-list li div:nth-child(2){
+    position: absolute;
+    right: 0;
+    background-color: red;
+    color: white;
+    width: auto;
+    height: 30px;
+}
+
+#name-tache, #search{
+    height: 30px;
+    background-color: white;
+}
+
+#todo-list-new{
+    height: 30px;
+    background-color: rgb(12, 196, 73);
+    color: white;
+}
